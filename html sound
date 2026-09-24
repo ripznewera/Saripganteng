@@ -1,0 +1,7 @@
+<audio id="bg-music" autoplay loop style="display:none">  
+  <source src="https://cdn.jsdelivr.net/gh/ripznewera/Saripganteng@main/ssstik.io_1790157579997.mp3" type="audio/mp4">  
+</source></audio>  <script>  
+document.addEventListener("click", function () {  
+  document.getElementById("bg-music").play().catch(() => {});  
+}, { once: true });  
+</script>
